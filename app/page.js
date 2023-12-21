@@ -13,7 +13,7 @@ export default async function Home() {
       {posts.map((post) => (
         <ul>
           <li className="post" key={post.id}>
-            <h3>{post.title}</h3>
+            <h2>{post.title}</h2>
             <p>{post.body}</p>
             <Link href={"/post/" + post.id}>Детальнее</Link>
           </li>

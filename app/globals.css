@@ -48,21 +48,16 @@ h1 {
   margin-bottom: 20px;
 }
 
-.post h3 {
+.post h2 {
   margin-bottom: 20px;
-}
-.post h3:first-letter {
-  text-transform: uppercase;
 }
 
 .post p {
   margin-bottom: 10px;
 }
 
-.post p:first-letter {
-  text-transform: uppercase;
-}
-
 .post a {
+  display: block;
+  padding: 10px 0;
   color: #283c44;
 }
